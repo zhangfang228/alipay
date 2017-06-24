@@ -1,0 +1,124 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  background: #e8e8ea; }
+
+header {
+  WIDTH: 100%;
+  height: 0.88rem;
+  background: #fff;
+  border-bottom: 0.01rem solid #e8e8ea;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  header #top {
+    padding: 0 0.3rem;
+    display: flex;
+    justify-content: space-between; }
+    header #top span {
+      font: 700 0.32rem/0.88rem "微软雅黑";
+      color: #000; }
+    header #top a {
+      font: 0.3rem/0.88rem "微软雅黑";
+      color: #15a0f5; }
+      header #top a img {
+        width: 0.19rem;
+        height: 0.3rem;
+        margin-right: 0.1rem; }
+
+section {
+  padding: 0.88rem 0 0 0; }
+  section .search {
+    width: 100%;
+    height: 0.86rem;
+    background: #fff;
+    border-top: 0.01rem solid #e4e3e8;
+    border-bottom: 0.01rem solid #e4e3e8;
+    margin-top: 0.3rem;
+    font: 0.3rem/0.86rem "微软雅黑"; }
+    section .search img {
+      width: 0.34rem;
+      height: 0.34rem;
+      margin: 0 0.36rem 0 0.5rem; }
+    section .search input {
+      width: 4.7rem;
+      height: 0.4rem;
+      font: 0.28rem/0.4rem "微软雅黑";
+      color: #c5c5c5;
+      border: 0; }
+  section .add {
+    width: 100%;
+    margin: 0.3rem 0 0.6rem 0;
+    height: 1.4rem;
+    background: #fff;
+    border-top: 0.01rem solid #e4e3e8;
+    border-bottom: 0.01rem solid #e4e3e8;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 0; }
+    section .add .add-l {
+      text-align: center;
+      width: 50%;
+      border-right: 0.01rem solid #e4e3e8; }
+      section .add .add-l p {
+        font: 0.26rem/0.36rem "微软雅黑";
+        color: #000; }
+      section .add .add-l span {
+        font: 0.22rem/0.36rem "微软雅黑";
+        color: #cacaca; }
+      section .add .add-l img {
+        width: 0.44rem;
+        height: 0.43rem;
+        margin: 0.1rem 0 0.06rem 0; }
+    section .add .add-r {
+      text-align: center;
+      width: 50%; }
+      section .add .add-r p {
+        font: 0.26rem/0.36rem "微软雅黑";
+        color: #000; }
+      section .add .add-r span {
+        font: 0.22rem/0.36rem "微软雅黑";
+        color: #cacaca; }
+      section .add .add-r img {
+        width: 0.44rem;
+        height: 0.43rem;
+        margin: 0.1rem 0 0.06rem 0; }
+  section .top01 {
+    width: 100%;
+    background: #fff;
+    border-bottom: 0.01rem solid #e6e6e6;
+    border-top: 0.01rem solid #e6e6e6;
+    margin-top: 0.3rem; }
+    section .top01 .list {
+      margin-left: 0.2rem;
+      padding: 0.18rem 0;
+      height: 1.17rem;
+      border-bottom: 0.01rem solid #e6e6e6; }
+      section .top01 .list .img01 {
+        float: left; }
+        section .top01 .list .img01 img {
+          width: 1.02rem;
+          height: 1rem; }
+      section .top01 .list .list-r {
+        float: left;
+        margin-left: 0.2rem; }
+        section .top01 .list .list-r .top h4 {
+          font: 0.32rem "微软雅黑";
+          color: #000; }
+        section .top01 .list .list-r .bot p {
+          font: 0.28rem "微软雅黑";
+          color: #757575;
+          margin-top: 0.1rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+      section .top01 .list .img02 {
+        float: right;
+        margin: 0.4rem 0.3rem 0 0; }
+        section .top01 .list .img02 img {
+          width: 0.16rem;
+          height: 0.26rem; }
+    section .top01 .b {
+      border-bottom: 0; }
+
+/*# sourceMappingURL=add.css.map */

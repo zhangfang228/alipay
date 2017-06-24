@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body {
+  width: 100%; }
+
+header {
+  width: 100%;
+  height: 0.87rem;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-bottom: 0.01rem solid #c9c9c9; }
+  header #top {
+    padding: 0.14rem 0.3rem 0;
+    display: flex;
+    justify-content: space-between; }
+    header #top a {
+      display: block;
+      font: 0.32rem/0.6rem "微软雅黑";
+      color: #19a1d3; }
+      header #top a img {
+        width: 0.19rem;
+        height: 0.32rem;
+        margin-right: 0.1rem; }
+    header #top input {
+      padding-left: 0.66rem;
+      width: 3.87rem;
+      height: 0.58rem;
+      border: 0;
+      border-radius: 0.1rem;
+      font: 0.26rem/0.28rem "微软雅黑";
+      color: #a6a6a6;
+      background: #f1f1f1 url(../img/sousuo01.png) no-repeat 0.28rem;
+      background-size: 0.3rem 0.3rem; }
+
+section {
+  padding: 0.87rem 0 0 0;
+  width: 100%; }
+  section .use {
+    height: 0.76rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #dedee0;
+    display: flex;
+    justify-content: space-between;
+    font: 0.22rem/0.76rem "微软雅黑";
+    padding: 0 0.2rem; }
+    section .use .use-l span {
+      color: #595959;
+      margin: 0 0.18rem 0 0; }
+    section .use .use-l img {
+      width: 0.34rem;
+      height: 0.34rem;
+      margin-right: 0.2rem; }
+    section .use .use-l b {
+      font-weight: 700;
+      color: #dedede; }
+    section .use .use-r a {
+      color: #19a1d3; }
+  section .empty {
+    height: 0.12rem;
+    width: 100%;
+    background: #f5f4f9; }
+  section h4 {
+    font: 0.2rem/0.52rem "微软雅黑";
+    color: #a2a2a2;
+    padding: 0 0.17rem;
+    background: url(../img/line.png) no-repeat left center;
+    background-size: 0.07rem 0.2rem; }
+  section ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    section ul li {
+      width: 25%;
+      text-align: center;
+      margin: 0.23rem 0; }
+      section ul li a {
+        display: block; }
+        section ul li a img {
+          width: 0.48rem;
+          height: 0.42rem; }
+        section ul li a p {
+          font: 0.22rem/0.48rem "微软雅黑";
+          color: #000; }
+  section .main {
+    height: 3.35rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #dedee0;
+    padding: 0.06rem 0.2rem 0; }
+  section .main01 {
+    height: 2.0rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #dedee0;
+    padding: 0.06rem 0.2rem 0; }
+
+/*# sourceMappingURL=more.css.map */
